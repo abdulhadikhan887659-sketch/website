@@ -1,0 +1,1954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ALBERTO WATCH | Timeless Elegance</title>
+
+    <meta
+        name="description"
+        content="ALBERTO WATCH - Timeless watches and heritage clocks crafted with elegance and precision."
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= TOP BAR ================= -->
+
+    <div class="top-bar">
+
+        <div class="container top-bar-inner">
+
+            <div>
+                <i class="bi bi-stars"></i>
+                Timeless Craftsmanship Since 1985
+            </div>
+
+            <div class="top-contact">
+
+                <span>
+                    <i class="bi bi-telephone"></i>
+                    +92 300 1234567
+                </span>
+
+                <span>
+                    <i class="bi bi-envelope"></i>
+                    info@albertowatch.com
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="container nav-inner">
+
+            <a href="#home" class="logo">
+
+                <span class="logo-icon">
+                    <i class="bi bi-watch"></i>
+                </span>
+
+                <span class="logo-text">
+                    <strong>ALBERTO</strong>
+                    <small>WATCH</small>
+                </span>
+
+            </a>
+
+
+            <nav id="mainNav">
+
+                <a href="#home" class="active">
+                    Home
+                </a>
+
+                <a href="#products">
+                    Products
+                </a>
+
+                <a href="#price-list">
+                    Price List
+                </a>
+
+                <a href="#technology">
+                    Technology
+                </a>
+
+                <a href="#gallery">
+                    Gallery
+                </a>
+
+                <a href="#store">
+                    Store Locator
+                </a>
+
+                <a href="#about">
+                    About Us
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <div class="nav-actions">
+
+                <button
+                    class="icon-btn"
+                    onclick="openSearch()"
+                    aria-label="Search"
+                >
+                    <i class="bi bi-search"></i>
+                </button>
+
+
+                <button
+                    class="icon-btn cart-btn"
+                    onclick="showCart()"
+                    aria-label="Shopping cart"
+                >
+                    <i class="bi bi-bag"></i>
+                    <span id="cartCount">0</span>
+                </button>
+
+
+                <button
+                    class="menu-btn"
+                    onclick="toggleMenu()"
+                    aria-label="Open menu"
+                >
+                    <i class="bi bi-list"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= SEARCH ================= -->
+
+    <div id="searchOverlay" class="search-overlay">
+
+        <button
+            class="close-search"
+            onclick="closeSearch()"
+        >
+            <i class="bi bi-x-lg"></i>
+        </button>
+
+
+        <div class="search-box">
+
+            <span>
+                Search ALBERTO WATCH
+            </span>
+
+
+            <div class="search-input-wrap">
+
+                <i class="bi bi-search"></i>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search watches..."
+                    onkeyup="searchProducts()"
+                >
+
+            </div>
+
+
+            <div
+                id="searchResults"
+                class="search-results"
+            ></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-overlay"></div>
+
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <span class="eyebrow">
+                    THE ART OF TIME
+                </span>
+
+
+                <h1>
+                    Time Is More Than
+                    <span>A Moment.</span>
+                </h1>
+
+
+                <p>
+                    Discover timeless watches crafted for those who
+                    appreciate tradition, precision and elegant design.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#products"
+                        class="btn btn-primary"
+                    >
+                        Explore Collection
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+
+                    <a
+                        href="#about"
+                        class="btn btn-outline"
+                    >
+                        Our Heritage
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-watch">
+
+                <div class="hero-watch-frame">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=900&q=85"
+                        alt="Luxury Alberto watch"
+                    >
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= INTRO ================= -->
+
+    <section class="intro section">
+
+        <div class="container intro-grid">
+
+            <div class="section-label">
+
+                <span>01</span>
+
+                <div></div>
+
+            </div>
+
+
+            <div>
+
+                <span class="eyebrow">
+                    ALBERTO WATCH
+                </span>
+
+
+                <h2>
+                    A Legacy Measured
+                    <em>in Time</em>
+                </h2>
+
+
+                <p>
+                    At ALBERTO WATCH, every timepiece tells a story.
+                    Inspired by traditional craftsmanship and refined
+                    with modern technology, our collections are created
+                    for generations.
+                </p>
+
+
+                <a
+                    href="#about"
+                    class="text-link"
+                >
+                    Discover Our Story
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CATEGORIES ================= -->
+
+    <section class="categories section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    OUR COLLECTIONS
+                </span>
+
+
+                <h2>
+                    Find Your
+                    <em>Timepiece</em>
+                </h2>
+
+
+                <p>
+                    Explore our carefully selected collections.
+                </p>
+
+            </div>
+
+
+            <div class="category-grid">
+
+                <article
+                    class="category-card"
+                    onclick="filterCategory('Vintage')"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=800&q=85"
+                            alt="Vintage watch"
+                        >
+
+                    </div>
+
+
+                    <div class="category-info">
+
+                        <span>01</span>
+
+                        <h3>
+                            Vintage
+                        </h3>
+
+                        <p>
+                            Timeless designs inspired by history.
+                        </p>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="category-card"
+                    onclick="filterCategory('Luxury')"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=85"
+                            alt="Luxury watch"
+                        >
+
+                    </div>
+
+
+                    <div class="category-info">
+
+                        <span>02</span>
+
+                        <h3>
+                            Luxury
+                        </h3>
+
+                        <p>
+                            Exceptional watches for exceptional moments.
+                        </p>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="category-card"
+                    onclick="filterCategory('Smart')"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=85"
+                            alt="Smart watch"
+                        >
+
+                    </div>
+
+
+                    <div class="category-info">
+
+                        <span>03</span>
+
+                        <h3>
+                            Smart Watches
+                        </h3>
+
+                        <p>
+                            Modern technology with classic character.
+                        </p>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="category-card"
+                    onclick="filterCategory('Classic')"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=85"
+                            alt="Classic clock"
+                        >
+
+                    </div>
+
+
+                    <div class="category-info">
+
+                        <span>04</span>
+
+                        <h3>
+                            Classic Clocks
+                        </h3>
+
+                        <p>
+                            Elegant clocks for distinguished spaces.
+                        </p>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section
+        id="products"
+        class="products section"
+    >
+
+        <div class="container">
+
+            <div class="section-heading products-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        THE COLLECTION
+                    </span>
+
+                    <h2>
+                        Signature
+                        <em>Timepieces</em>
+                    </h2>
+
+                </div>
+
+
+                <p>
+                    Explore our complete collection of handcrafted
+                    watches and classic clocks.
+                </p>
+
+            </div>
+
+
+            <!-- PRODUCT FILTERS -->
+
+            <div class="filters">
+
+                <button
+                    class="filter-btn active"
+                    onclick="filterCategory('All', this)"
+                >
+                    All
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    onclick="filterCategory('Vintage', this)"
+                >
+                    Vintage
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    onclick="filterCategory('Luxury', this)"
+                >
+                    Luxury
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    onclick="filterCategory('Smart', this)"
+                >
+                    Smart
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    onclick="filterCategory('Classic', this)"
+                >
+                    Classic
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCTS WILL LOAD HERE -->
+
+            <div
+                id="productGrid"
+                class="product-grid"
+            ></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- ================= PRICE LIST ==================== -->
+    <!-- ================================================= -->
+
+    <section
+        id="price-list"
+        class="price-list section"
+    >
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    ALBERTO WATCH
+                </span>
+
+
+                <h2>
+                    Official
+                    <em>Price List</em>
+                </h2>
+
+
+                <p>
+                    Explore our complete collection and current prices.
+                </p>
+
+            </div>
+
+
+            <div class="price-table">
+
+                <!-- HEADER -->
+
+                <div class="price-row price-header">
+
+                    <div>
+                        Product
+                    </div>
+
+                    <div>
+                        Category
+                    </div>
+
+                    <div>
+                        Price
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT 1 -->
+
+                <div class="price-row">
+
+                    <div class="price-product">
+
+                        <strong>
+                            Alberto Heritage Classic
+                        </strong>
+
+                        <span>
+                            Classic leather timepiece
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        Vintage
+                    </div>
+
+
+                    <strong>
+                        PKR 28,500
+                    </strong>
+
+                </div>
+
+
+                <!-- PRODUCT 2 -->
+
+                <div class="price-row">
+
+                    <div class="price-product">
+
+                        <strong>
+                            Alberto Vintage Leather
+                        </strong>
+
+                        <span>
+                            Traditional leather collection
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        Vintage
+                    </div>
+
+
+                    <strong>
+                        PKR 31,500
+                    </strong>
+
+                </div>
+
+
+                <!-- PRODUCT 3 -->
+
+                <div class="price-row">
+
+                    <div class="price-product">
+
+                        <strong>
+                            Alberto Heritage 1985
+                        </strong>
+
+                        <span>
+                            Heritage inspired design
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        Vintage
+                    </div>
+
+
+                    <strong>
+                        PKR 35,000
+                    </strong>
+
+                </div>
+
+
+                <!-- PRODUCT 4 -->
+
+                <div class="price-row">
+
+                    <div class="price-product">
+
+                        <strong>
+                            Alberto Urban Smart
+                        </strong>
+
+                        <span>
+                            Modern connected timepiece
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        Smart
+                    </div>
+
+
+                    <strong>
+                        PKR 42,000
+                    </strong>
+
+                </div>
+
+
+                <!-- PRODUCT 5 -->
+
+                <div class="price-row">
+
+                    <div class="price-product">
+
+                        <strong>
+                            Alberto Smart Pro
+                        </strong>
+
+                        <span>
+                            Premium smart collection
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        Smart
+                    </div>
+
+
+                    <strong>
+                        PKR 48,500
+                    </strong>
+
+                </div>
+
+
+                <!-- PRODUCT 6 -->
+
+                <div class="price-row">
+
+                    <div class="price-product">
+
+                        <strong>
+                            Alberto Classic Clock
+                        </strong>
+
+                        <span>
+                            Elegant classic clock
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        Classic
+                    </div>
+
+
+                    <strong>
+                        PKR 55,000
+                    </strong>
+
+                </div>
+
+
+                <!-- PRODUCT 7 -->
+
+                <div class="price-row">
+
+                    <div class="price-product">
+
+                        <strong>
+                            Alberto Grand Classic
+                        </strong>
+
+                        <span>
+                            Distinguished classic design
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        Classic
+                    </div>
+
+
+                    <strong>
+                        PKR 62,000
+                    </strong>
+
+                </div>
+
+
+                <!-- PRODUCT 8 -->
+
+                <div class="price-row">
+
+                    <div class="price-product">
+
+                        <strong>
+                            Alberto Executive
+                        </strong>
+
+                        <span>
+                            Executive luxury timepiece
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        Luxury
+                    </div>
+
+
+                    <strong>
+                        PKR 67,500
+                    </strong>
+
+                </div>
+
+
+                <!-- PRODUCT 9 -->
+
+                <div class="price-row">
+
+                    <div class="price-product">
+
+                        <strong>
+                            Alberto Royal Gold
+                        </strong>
+
+                        <span>
+                            Luxury gold collection
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        Luxury
+                    </div>
+
+
+                    <strong>
+                        PKR 85,000
+                    </strong>
+
+                </div>
+
+
+                <!-- PRODUCT 10 -->
+
+                <div class="price-row featured-price">
+
+                    <div class="price-product">
+
+                        <strong>
+                            Alberto Prestige
+                        </strong>
+
+                        <span>
+                            Premium prestige collection
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        Luxury
+                    </div>
+
+
+                    <strong>
+                        PKR 125,000
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRICE NOTE -->
+
+            <div class="price-note">
+
+                <i class="bi bi-info-circle"></i>
+
+                <p>
+                    All prices are in Pakistani Rupees (PKR).
+                    Prices may change according to collection
+                    and availability.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= TECHNOLOGY ================= -->
+
+    <section
+        id="technology"
+        class="technology section"
+    >
+
+        <div class="container technology-grid">
+
+            <div class="technology-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1539874754764-5a96559165b0?auto=format&fit=crop&w=1000&q=85"
+                    alt="Watch mechanism"
+                >
+
+
+                <div class="image-caption">
+
+                    <span>
+                        PRECISION
+                    </span>
+
+                    <strong>
+                        Built To Last
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="technology-content">
+
+                <span class="eyebrow">
+                    OUR TECHNOLOGY
+                </span>
+
+
+                <h2>
+                    Where Tradition
+                    Meets <em>Innovation</em>
+                </h2>
+
+
+                <p>
+                    ALBERTO WATCH combines traditional watchmaking
+                    techniques with carefully selected modern
+                    technologies.
+                </p>
+
+
+                <div class="technology-list">
+
+                    <div class="tech-item">
+
+                        <div class="tech-icon">
+                            <i class="bi bi-gear"></i>
+                        </div>
+
+
+                        <div>
+
+                            <h3>
+                                Precision Movement
+                            </h3>
+
+                            <p>
+                                Carefully engineered mechanisms
+                                designed for accurate timekeeping.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="tech-item">
+
+                        <div class="tech-icon">
+                            <i class="bi bi-gem"></i>
+                        </div>
+
+
+                        <div>
+
+                            <h3>
+                                Premium Materials
+                            </h3>
+
+                            <p>
+                                Quality metals, sapphire glass and
+                                refined leather details.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="tech-item">
+
+                        <div class="tech-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+
+
+                        <div>
+
+                            <h3>
+                                Quality Tested
+                            </h3>
+
+                            <p>
+                                Every collection is inspected to meet
+                                our quality standards.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HERITAGE ================= -->
+
+    <section
+        id="about"
+        class="heritage section"
+    >
+
+        <div class="container heritage-grid">
+
+            <div class="heritage-content">
+
+                <span class="eyebrow">
+                    OUR HERITAGE
+                </span>
+
+
+                <h2>
+                    Since 1985,
+                    <em>Time Has Been Our Craft.</em>
+                </h2>
+
+
+                <p>
+                    ALBERTO WATCH was founded on a simple idea:
+                    create beautiful timepieces that remain meaningful
+                    long after trends have disappeared.
+                </p>
+
+
+                <p>
+                    From classic mechanical watches to modern smart
+                    timepieces, our collections bring together
+                    heritage, craftsmanship and innovation.
+                </p>
+
+
+                <a
+                    href="#contact"
+                    class="btn btn-primary"
+                >
+                    Contact Us
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="heritage-numbers">
+
+                <div class="heritage-number">
+
+                    <strong>
+                        40+
+                    </strong>
+
+                    <span>
+                        Years of Heritage
+                    </span>
+
+                </div>
+
+
+                <div class="heritage-number">
+
+                    <strong>
+                        25+
+                    </strong>
+
+                    <span>
+                        Unique Timepieces
+                    </span>
+
+                </div>
+
+
+                <div class="heritage-number">
+
+                    <strong>
+                        15
+                    </strong>
+
+                    <span>
+                        Countries Served
+                    </span>
+
+                </div>
+
+
+                <div class="heritage-number">
+
+                    <strong>
+                        100%
+                    </strong>
+
+                    <span>
+                        Craftsmanship
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= GALLERY ================= -->
+
+    <section
+        id="gallery"
+        class="gallery section"
+    >
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    VISUAL STORIES
+                </span>
+
+
+                <h2>
+                    The World of
+                    <em>ALBERTO WATCH</em>
+                </h2>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item gallery-large">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?auto=format&fit=crop&w=1000&q=85"
+                        alt="Alberto watch collection"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=85"
+                        alt="Luxury watch"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1539874754764-5a96559165b0?auto=format&fit=crop&w=800&q=85"
+                        alt="Classic watch"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=85"
+                        alt="Classic clock"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=85"
+                        alt="Luxury timepiece"
+                    >
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= STORE ================= -->
+
+    <section
+        id="store"
+        class="store section"
+    >
+
+        <div class="container store-grid">
+
+            <div class="store-content">
+
+                <span class="eyebrow">
+                    VISIT US
+                </span>
+
+
+                <h2>
+                    Find An
+                    <em>ALBERTO WATCH</em>
+                    Store
+                </h2>
+
+
+                <p>
+                    Experience our watches in person and discover
+                    the craftsmanship behind every collection.
+                </p>
+
+
+                <div class="store-location">
+
+                    <div class="store-icon">
+                        <i class="bi bi-geo-alt"></i>
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+                            Karachi Store
+                        </h3>
+
+
+                        <p>
+                            Main Clifton Road,<br>
+                            Karachi, Pakistan
+                        </p>
+
+
+                        <p>
+                            <strong>
+                                Phone:
+                            </strong>
+
+                            +92 300 1234567
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="btn btn-primary"
+                    onclick="findStore()"
+                >
+                    Find A Store
+                    <i class="bi bi-arrow-right"></i>
+                </button>
+
+            </div>
+
+
+            <div class="store-map">
+
+                <div class="map-placeholder">
+
+                    <i class="bi bi-geo-alt-fill"></i>
+
+                    <h3>
+                        ALBERTO WATCH
+                    </h3>
+
+                    <p>
+                        Karachi, Pakistan
+                    </p>
+
+
+                    <button onclick="findStore()">
+                        Get Directions
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+        id="contact"
+        class="contact section"
+    >
+
+        <div class="container contact-grid">
+
+            <div class="contact-info">
+
+                <span class="eyebrow">
+                    GET IN TOUCH
+                </span>
+
+
+                <h2>
+                    We'd Love To
+                    <em>Hear From You</em>
+                </h2>
+
+
+                <p>
+                    Have a question about a timepiece, our collection,
+                    or your order? Contact the ALBERTO WATCH team.
+                </p>
+
+
+                <div class="contact-details">
+
+                    <div class="contact-detail">
+
+                        <i class="bi bi-envelope"></i>
+
+                        <div>
+
+                            <span>
+                                Email
+                            </span>
+
+                            <strong>
+                                info@albertowatch.com
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-detail">
+
+                        <i class="bi bi-telephone"></i>
+
+                        <div>
+
+                            <span>
+                                Phone
+                            </span>
+
+                            <strong>
+                                +92 300 1234567
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-detail">
+
+                        <i class="bi bi-geo-alt"></i>
+
+                        <div>
+
+                            <span>
+                                Address
+                            </span>
+
+                            <strong>
+                                Karachi, Pakistan
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form
+                class="contact-form"
+                onsubmit="submitContact(event)"
+            >
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            required
+                            placeholder="Enter your name"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            required
+                            placeholder="Enter your email"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="subject">
+                        Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        required
+                        placeholder="How can we help?"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        rows="6"
+                        required
+                        placeholder="Write your message..."
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary"
+                >
+                    Send Message
+                    <i class="bi bi-send"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section class="newsletter">
+
+        <div class="container newsletter-inner">
+
+            <div>
+
+                <span class="eyebrow">
+                    STAY IN THE LOOP
+                </span>
+
+
+                <h2>
+                    Join The
+                    <em>ALBERTO WATCH</em>
+                    Journal
+                </h2>
+
+            </div>
+
+
+            <form
+                class="newsletter-form"
+                onsubmit="subscribe(event)"
+            >
+
+                <input
+                    type="email"
+                    id="newsletterEmail"
+                    required
+                    placeholder="Your email address"
+                >
+
+
+                <button type="submit">
+
+                    Subscribe
+
+                    <i class="bi bi-arrow-right"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a
+                    href="#home"
+                    class="logo footer-logo"
+                >
+
+                    <span class="logo-icon">
+                        <i class="bi bi-watch"></i>
+                    </span>
+
+
+                    <span class="logo-text">
+
+                        <strong>
+                            ALBERTO
+                        </strong>
+
+                        <small>
+                            WATCH
+                        </small>
+
+                    </span>
+
+                </a>
+
+
+                <p>
+                    Timeless craftsmanship for the modern generation.
+                </p>
+
+
+                <div class="social-links">
+
+                    <a href="https://www.facebook.com" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="https://www.pinterest.com" aria-label="Pinterest">
+                        <i class="bi bi-pinterest"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com" aria-label="YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Collections
+                </h3>
+
+
+                <a
+                    href="#products"
+                    onclick="filterCategory('Vintage')"
+                >
+                    Vintage
+                </a>
+
+
+                <a
+                    href="#products"
+                    onclick="filterCategory('Luxury')"
+                >
+                    Luxury
+                </a>
+
+
+                <a
+                    href="#products"
+                    onclick="filterCategory('Smart')"
+                >
+                    Smart Watches
+                </a>
+
+
+                <a
+                    href="#products"
+                    onclick="filterCategory('Classic')"
+                >
+                    Classic Clocks
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Information
+                </h3>
+
+                <a href="#about">
+                    About Us
+                </a>
+
+                <a href="#technology">
+                    Technology
+                </a>
+
+                <a href="#gallery">
+                    Gallery
+                </a>
+
+                <a href="#store">
+                    Store Locator
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Support
+                </h3>
+
+                <a href="#contact">
+                    Contact Us
+                </a>
+
+                <a href="#">
+                    Shipping
+                </a>
+
+                <a href="#">
+                    Returns
+                </a>
+
+                <a href="#">
+                    Warranty
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container footer-bottom-inner">
+
+                <p>
+                    © 2026 ALBERTO WATCH. All Rights Reserved.
+                </p>
+
+
+                <div>
+
+                    <a href="#">
+                        Privacy Policy
+                    </a>
+
+                    <a href="#">
+                        Terms & Conditions
+                    </a>
+
+                    <a href="#">
+                        Sitemap
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= PRODUCT MODAL ================= -->
+
+    <div
+        id="productModal"
+        class="modal"
+    >
+
+        <div class="modal-content product-modal">
+
+            <button
+                class="modal-close"
+                onclick="closeModal()"
+            >
+                <i class="bi bi-x-lg"></i>
+            </button>
+
+
+            <div class="modal-product-image">
+
+                <img
+                    id="modalImage"
+                    src=""
+                    alt=""
+                >
+
+            </div>
+
+
+            <div class="modal-product-info">
+
+                <span
+                    id="modalCategory"
+                    class="eyebrow"
+                ></span>
+
+
+                <h2 id="modalName"></h2>
+
+
+                <div
+                    id="modalPrice"
+                    class="modal-price"
+                ></div>
+
+
+                <div class="modal-divider"></div>
+
+
+                <p id="modalDescription"></p>
+
+
+                <div class="product-features">
+
+                    <span>
+                        <i class="bi bi-check-circle"></i>
+                        Quality Tested
+                    </span>
+
+                    <span>
+                        <i class="bi bi-check-circle"></i>
+                        Premium Materials
+                    </span>
+
+                    <span>
+                        <i class="bi bi-check-circle"></i>
+                        Warranty Included
+                    </span>
+
+                </div>
+
+
+                <button
+                    class="btn btn-primary modal-cart-btn"
+                    onclick="addToCartFromModal()"
+                >
+                    Add To Cart
+                    <i class="bi bi-bag"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= CART MODAL ================= -->
+
+    <div
+        id="cartModal"
+        class="modal"
+    >
+
+        <div class="modal-content cart-modal">
+
+            <button
+                class="modal-close"
+                onclick="closeCart()"
+            >
+                <i class="bi bi-x-lg"></i>
+            </button>
+
+
+            <div class="cart-header">
+
+                <span class="eyebrow">
+                    YOUR COLLECTION
+                </span>
+
+
+                <h2>
+                    Shopping
+                    <em>Bag</em>
+                </h2>
+
+            </div>
+
+
+            <div
+                id="cartItems"
+                class="cart-items"
+            ></div>
+
+
+            <div class="cart-footer">
+
+                <div class="cart-total-row">
+
+                    <span>
+                        Total
+                    </span>
+
+                    <strong id="cartTotal">
+                        PKR 0
+                    </strong>
+
+                </div>
+
+
+                <button
+                    class="btn btn-primary checkout-btn"
+                    onclick="checkout()"
+                >
+                    Proceed To Checkout
+                    <i class="bi bi-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= NOTIFICATION ================= -->
+
+    <div
+        id="notification"
+        class="notification"
+    >
+
+        <i class="bi bi-check-circle"></i>
+
+        <span id="notificationText"></span>
+
+    </div>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
